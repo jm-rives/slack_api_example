@@ -30,7 +30,12 @@ class Slack_Api_Wrapper
     my_channels
   end
 
+  # remember to seprate parameters with an ampersand
+  # can copy/ paster fro Postman
   def self.send_message(channel, msg)
+    url = BASE_URL + "chat.postMessage?token=#{TOKEN}" + "&text=#{msg}" + "&channel=#{channel}"
+
+    response = HTTParty.get(url)
 
   end
 
