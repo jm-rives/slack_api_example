@@ -16,4 +16,7 @@
 !/log/.keep
 /tmp
 .env
+/#.env # hides all files that end 
+.DS_store
+
 

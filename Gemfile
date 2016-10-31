@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 # Required due to an incompatibility between TurboLinks and Foundation.
 gem 'jquery-turbolinks'
 
-gem 'faker'
+# gem 'faker'
 
 gem 'awesome_print'
 
